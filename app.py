@@ -6,9 +6,6 @@ import joblib
 
 
 
-# Load the list of selected features that the model expects
-with open('models_over_sampling/selected_features.txt', 'r') as f:
-    selected_features = [line.strip() for line in f]
 
 # Define the numeric columns that will be input by the user
 columns_name = ['Air_temperature_K',
