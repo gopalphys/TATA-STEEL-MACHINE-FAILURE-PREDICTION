@@ -53,7 +53,7 @@ if st.button("Predict"):
 
 
     # Load the trained model from a local file
-  model = joblib.load("models_over_sampling/best_model.pkl")
+  model = joblib.load("best_model.pkl")
 
     # Predict the risk of heart disease based on the input features
   prediction = model.predict(X_transform)
